@@ -28,7 +28,7 @@ interface IProps {
 function SearchUserId(props: IProps) {
   const classes = useStyles();
 
-  const [userId, setUserId] = useState('debersonpaula');
+  const [userId, setUserId] = useState('');
 
   const handleSearch = () => {
     if (userId) {

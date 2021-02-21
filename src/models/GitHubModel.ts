@@ -8,7 +8,7 @@ type SetStateCallback = (handler: (previous: IGitHubState) => IGitHubState) => v
 export class GitHubModel {
   private _setState: SetStateCallback;
   private readonly _retryTimeoutLimit = 500;
-  private readonly _retryTimesLimit = 100;
+  private readonly _retryTimesLimit = 250;
   private _retries = 0;
   private _validUserId = '';
 

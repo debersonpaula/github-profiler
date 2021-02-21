@@ -6,13 +6,17 @@ Installing dependencies
 npm install
 ```
 
-Run the FRONT application
+## Prerequisites:
+
+- Node V >= 12.x
+
+## Run the FRONT application:
 
 ```sh
 npm run start
 ```
 
-Run the API application
+## Run the API application:
 
 Before run, please insert your personal token from Github in the config.ts file, on GITHUB*TOKEN property, inside folder \_src-api*.
 
