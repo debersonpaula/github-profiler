@@ -1,0 +1,27 @@
+export const searchUser = {
+  total_count: 1,
+  incomplete_results: false,
+  items: [
+    {
+      login: 'debersonpaula',
+      id: 31399556,
+      node_id: 'MDQ6VXNlcjMxMzk5NTU2',
+      avatar_url: 'https://avatars.githubusercontent.com/u/31399556?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/debersonpaula',
+      html_url: 'https://github.com/debersonpaula',
+      followers_url: 'https://api.github.com/users/debersonpaula/followers',
+      following_url: 'https://api.github.com/users/debersonpaula/following{/other_user}',
+      gists_url: 'https://api.github.com/users/debersonpaula/gists{/gist_id}',
+      starred_url: 'https://api.github.com/users/debersonpaula/starred{/owner}{/repo}',
+      subscriptions_url: 'https://api.github.com/users/debersonpaula/subscriptions',
+      organizations_url: 'https://api.github.com/users/debersonpaula/orgs',
+      repos_url: 'https://api.github.com/users/debersonpaula/repos',
+      events_url: 'https://api.github.com/users/debersonpaula/events{/privacy}',
+      received_events_url: 'https://api.github.com/users/debersonpaula/received_events',
+      type: 'User',
+      site_admin: false,
+      score: 1.0,
+    },
+  ],
+};
