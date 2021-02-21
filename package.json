@@ -1,8 +1,19 @@
 {
   "name": "github-profiler",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "author": "deberson.paula@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debersonpaula/github-profiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/debersonpaula/github-profiler/issues"
+  },
+  "homepage": "https://github.com/debersonpaula/github-profiler#readme",
+  "description": ""
 }
